@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add New List Item</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="control-bar">
+      <div class="option" id="option">&#x2716;</div>
+    </div>
+    <div class="container">
+      <h2 class="text-center">Add New List Item</h2>
+      <fieldset>
+        <legend>Add New List Item</legend>
+        <form id="addListItem">
+          <div class="form-group">
+            <label class="form-label" for="add-input">Item: </label>
+            <input class="form-input" id="add-input" type="text" name="add-input" placeholder="Add new Item . . .">
+            <input class="form-qnt" id="add-qnt" type="text" name="add-quantity" placeholder="Add Quantity">
+          </div>
+
+          <button class="btn" id="btn">Add Item</button>
+        </form>
+      </fieldset>
+    </div>
+    <script src="add.js"></script>
+  </body>
+</html>

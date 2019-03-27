@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("background_shopping.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  margin: 0 auto;
+
+}
+h1 {
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 250%;
+  text-shadow: 4px 3px dimgray;
+  text-decoration: ThreeDFace;
+
+}
+#contents {
+  border: 1px solid gray;
+  box-shadow: 1px 1px lightgrey;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 10px;
+  min-height: 100vh;
+  background-color: rgba(255, 238, 212, 0.53);
+}
+#create {
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.listItem {
+  margin-left: 10px;
+  font-size: 130%;
+ }
+
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin: 4px;
+}
+
+legend {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 6px;
+}
+
+.form-label {
+  margin: 5px;
+}
+
+.form-input {
+  margin: 5px;
+}
+
+.btn {
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+.container {
+  background-color: rgba(255, 238, 212, 0.53);
+  min-height: 90vh;
+}
+
+.control-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 16px;
+  background-color: grey;
+  margin-bottom: 2px;
+  -webkit-app-region: drag;
+}
+
+.option {
+   font-size: 70%;
+   margin-right: 5px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+ }
+
+.option:hover {
+  background-color: darkred;
+  font-size: 70%;
+  margin-right: 5px;
+}
