@@ -1,0 +1,14 @@
+{
+  "name": "start_with_electronjs",
+  "version": "0.1.0",
+  "description": "Start with electron js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Rami Mhanna",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.2"
+  }
+}
